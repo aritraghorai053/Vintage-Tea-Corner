@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>মিন্টুর চা | এক কাপ চা, হাজার গল্প</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="cinematic-bg"></div>
+    <div class="overlay"></div>
+    <div class="grain"></div>
+
+
+
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">☕</span>
+            <span>মিন্টুর চা</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="https://youtube.com/playlist?list=PLCQUaoWwMr993_laX5MUp5fc-TUHl8hNH&si=j4N2HWohUHqt0QNV" target="_blank">Youtube Playlist</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </header>
+
+
+
+    <main class="hero" id="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-small">
+                EST. 1998 • মহিষাদল
+            </span>
+        </div>
+
+    </main>
+
+
+    <div class="hidden-youtube-container">
+        <div id="youtubePlayer"></div>
+    </div>
+
+
+    <div class="music-player" id="floatingPlayer">
+
+        <div class="song-info">
+            <div class="song-header">
+                <div class="album-art" id="albumArt">
+                    <span class="album-icon">☕</span>
+                    <div class="visualizer" id="visualizer">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                
+                <div class="song-text-meta">
+                    <div class="marquee-wrapper">
+                        <span id="trackName" class="marquee-text">Old Song Playlist</span>
+                    </div>
+                    <small id="trackArtist"></small>
+                </div>
+                
+                <span class="source-badge" id="sourceBadge">YouTube</span>
+            </div>
+        </div>
+
+        <div class="music-controls">
+
+            <button id="prevBtn" title="Previous Track">⏮</button>
+
+            <button id="playBtn" class="play-btn-main" title="Play/Pause">
+                ▶
+            </button>
+
+            <button id="nextBtn" title="Next Track">⏭</button>
+
+            <div class="volume-container">
+                <button id="volBtn" title="Volume">🔊</button>
+                <div class="volume-popover">
+                    <input type="range" id="volRange" min="0" max="100" value="80">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="progress-bar-wrapper">
+            <span class="time-text" id="currentTimeDisplay">0:00</span>
+            <div class="progress-container" id="progressContainer">
+                <div class="progress" id="progress"></div>
+            </div>
+            <span class="time-text" id="durationTimeDisplay">0:00</span>
+        </div>
+
+
+    </div>
+
+
+
+
+    <footer>
+
+        <div class="footer-logo">
+            ☕ মিন্টুর চা
+        </div>
+
+        <p>
+            এক কাপ চা, হাজার গল্প।
+        </p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/aritra.io/">Instagram</a>
+            <a href="https://www.facebook.com/sarnic.roy.2025">Facebook</a>
+            <a href="https://www.youtube.com/@AritraGhorai-w4n4u">YouTube</a>
+        </div>
+
+        <small>
+            © 2026 Aritra Ghorai. All rights reserved.
+        </small>
+
+    </footer>
+
+
+    <!-- YouTube IFrame Player API — MUST load before script.js -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- Music Player Logic -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
