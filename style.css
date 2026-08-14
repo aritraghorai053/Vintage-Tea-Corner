@@ -15,9 +15,7 @@
 }
 
 
-/* =========================
-   RESET
-========================= */
+
 
 * {
     margin: 0;
@@ -42,9 +40,6 @@ a {
 }
 
 
-/* =========================
-   BACKGROUND
-========================= */
 
 .cinematic-bg {
     position: absolute;
@@ -91,9 +86,6 @@ a {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
 
 .navbar {
     position: fixed;
@@ -121,7 +113,6 @@ a {
 }
 
 
-/* LOGO */
 
 .logo {
     display: flex;
@@ -140,7 +131,7 @@ a {
 }
 
 
-/* NAV LINKS */
+
 
 .nav-links {
     display: flex;
@@ -160,7 +151,6 @@ a {
 }
 
 
-/* MOBILE MENU BUTTON */
 
 .menu-btn {
     display: none;
@@ -181,9 +171,6 @@ a {
 }
 
 
-/* =========================
-   HERO
-========================= */
 
 .hero {
     min-height: 100vh;
@@ -237,9 +224,6 @@ a {
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
 
 .hero-buttons {
     margin-top: 35px;
@@ -1020,9 +1004,7 @@ a {
 
 
 
-/* =========================
-   FOOTER
-========================= */
+
 
 footer {
     padding: 70px 20px;
@@ -1069,9 +1051,6 @@ footer small {
 }
 
 
-/* =========================
-   ANIMATION
-========================= */
 
 @keyframes heroAppear {
     from { opacity: 0; transform: translateY(30px); }
@@ -1079,9 +1058,7 @@ footer small {
 }
 
 
-/* =========================
-   RESPONSIVE — TABLET (≤900px)
-========================= */
+
 
 @media (max-width: 900px) {
 
@@ -1113,7 +1090,7 @@ footer small {
         position: relative;
     }
 
-    /* Music player — tablet */
+ 
     .music-player {
         width: min(560px, 94vw);
         bottom: 18px;
@@ -1130,9 +1107,7 @@ footer small {
 }
 
 
-/* =========================
-   RESPONSIVE — MOBILE (≤600px)
-========================= */
+
 
 @media (max-width: 600px) {
 
@@ -1151,7 +1126,7 @@ footer small {
         gap: 12px;
     }
 
-    /* ── MUSIC PLAYER ── */
+
     .music-player {
         width: calc(100vw - 20px);
         left: 10px;
@@ -1219,7 +1194,7 @@ footer small {
         font-size: 17px !important;
     }
 
-    /* Volume popover — opens upward from button */
+  
     .volume-popover {
         bottom: 42px;
         left: 50%;
@@ -1230,7 +1205,7 @@ footer small {
         width: 70px;
     }
 
-    /* Progress bar — slimmer on mobile but still tappable */
+  
     .progress-bar-wrapper {
         gap: 8px;
         margin-top: 2px;
@@ -1250,7 +1225,7 @@ footer small {
         min-width: 28px;
     }
 
-    /* URL input form — full width, tighter */
+   
     .yt-url-form {
         margin-top: 4px;
     }
@@ -1275,7 +1250,7 @@ footer small {
         border-radius: 16px;
     }
 
-    /* Toast — bottom on mobile so it doesn't block player */
+ 
     .toast-notification {
         top: auto;
         bottom: calc(100px + env(safe-area-inset-bottom));
@@ -1294,9 +1269,7 @@ footer small {
 }
 
 
-/* =========================
-   RESPONSIVE — VERY SMALL (≤400px)
-========================= */
+
 
 @media (max-width: 400px) {
 
@@ -1335,9 +1308,7 @@ footer small {
 
 }
 
-/* =========================
-   RESPONSIVE SONG TITLE
-========================= */
+
 
 .song-header {
     display: flex;
@@ -1381,9 +1352,7 @@ footer small {
 }
 
 
-/* =========================
-   TABLET
-========================= */
+
 
 @media (max-width: 768px) {
 
@@ -1401,9 +1370,6 @@ footer small {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
 
@@ -1440,9 +1406,7 @@ footer small {
 }
 
 
-/* =========================
-   SMALL MOBILE
-========================= */
+
 
 @media (max-width: 400px) {
 
