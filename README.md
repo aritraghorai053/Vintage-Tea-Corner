@@ -10,6 +10,12 @@ The website combines a warm vintage design with a **YouTube Playlist Music Playe
 ## 🌿 About the Project
 
 **মিন্টুর চা (Mintur Cha)** is a frontend web project designed around the feeling of a traditional Bengali tea stall.
+## 🚀 Live Demo
+
+🔗 **Website:**  https://aritraghorai053.github.io/Vintage-Tea-Corner/
+> Replace the above link with your deployed website URL (GitHub Pages, Netlify, or Vercel).
+
+---
 
 The website features:
 
