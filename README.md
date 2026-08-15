@@ -1,6 +1,5 @@
-# ☕ মিন্টুর চা — Mintur Cha
+# ☕ Vintage Tea Corner
 
-> **এক কাপ চা, হাজার গল্প ও মন জুড়ানো সুর।**
 
 A vintage Bengali tea-shop themed website inspired by the traditional **চায়ের দোকান (Tea Stall)** culture of Bengal.
 
@@ -87,14 +86,13 @@ The player loads the playlist using the YouTube IFrame Player API.
 | CSS3 | Styling and responsive design |
 | JavaScript | Music player functionality |
 | YouTube IFrame API | YouTube playlist integration |
-| Google Fonts | Bengali & English typography |
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-Mintur-Cha/
+Vintage-Tea-Corner/
 │
 ├── index.html
 ├── style.css
